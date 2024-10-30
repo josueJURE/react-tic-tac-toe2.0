@@ -1,5 +1,5 @@
 
-import Square from './components/Square.jsx';
+import Square from './components/Board.jsx';
 
 import './App.css'
 
