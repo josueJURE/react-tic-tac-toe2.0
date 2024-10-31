@@ -1,7 +1,10 @@
-export default function Square({number}) {
+
+
+export default function Square({value, onSquareClick }) {
+ 
     return (
         <>
-            <button className="square">{number}</button>
+            <button onClick={onSquareClick} className="square">{value}</button>
         </>
     )
 }
