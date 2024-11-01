@@ -1,10 +1,12 @@
 
 
-export default function Square({value, onSquareClick }) {
+export default function Square({value, onSquareClick, isDisabled}) {
+
+    console.log(value)
  
     return (
         <>
-            <button onClick={onSquareClick} className="square">{value}</button>
+            <button onClick={onSquareClick} className="square">{value} </button>
         </>
     )
 }
